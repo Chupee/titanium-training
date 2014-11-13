@@ -1,0 +1,7 @@
+"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/android/gen/android/support/v7/appcompat/R.java"
+"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/android/gen/fr/chupee/todolist/ApplicationStylesheet.java"
+"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/android/gen/fr/chupee/todolist/R.java"
+"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/android/gen/fr/chupee/todolist/TodolistActivity.java"
+"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/android/gen/fr/chupee/todolist/TodolistAppInfo.java"
+"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/android/gen/fr/chupee/todolist/TodolistApplication.java"
+"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/android/gen/ti/modules/titanium/ui/R.java"

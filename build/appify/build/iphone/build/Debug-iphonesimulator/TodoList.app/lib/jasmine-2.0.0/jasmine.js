@@ -1,0 +1,1 @@
+/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/Resources/lib/jasmine-2.0.0/jasmine.js
