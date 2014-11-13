@@ -1,0 +1,27 @@
+<Alloy>
+<NavigationWindow>
+		<Window id="indexWin" class="container" title="Chats">
+			<LeftNavButton id="backButton" title="Retour"></LeftNavButton>
+			<RightNavButton id="addButton" title="+"></RightNavButton>
+			<ListView defaultItemTemplate="elementTemplate">
+				<Templates>
+					<ItemTemplate name="elementTemplate">
+						<View layout="horizontal">
+							<ImageView height="100" bindId="catPhoto" id="catPhoto" />
+							<View layout="vertical">
+					            <Label bindId="catName" id="catName" />
+					            <Label bindId="catFur" id="catFur"/>
+				            </View>
+			            </View>
+			        </ItemTemplate>
+				</Templates>
+				<ListSection> 
+					<ListItem height="100" catName:text="Titoo" catFur:text="noir" catPhoto:image="http://placekitten.com/g/100/100" />
+					<ListItem height="100" catName:text="Gnocchi" catFur:text="roux" catPhoto:image="http://placekitten.com/g/100/100" />
+					<ListItem height="100" catName:text="Siia" catFur:text="gris" catPhoto:image="http://placekitten.com/g/100/100" />
+					<ListItem height="100" catName:text="Copine" catFur:text="tabby" catPhoto:image="http://placekitten.com/g/100/100" />
+				</ListSection>
+			</ListView>
+		</Window>
+</NavigationWindow>
+</Alloy>
