@@ -38,13 +38,13 @@ function Controller() {
         title: "+"
     });
     $.__views.indexWin.rightNavButton = $.__views.addButton;
-    var __alloyId25 = {};
-    var __alloyId28 = [];
-    var __alloyId30 = {
+    var __alloyId24 = {};
+    var __alloyId27 = [];
+    var __alloyId29 = {
         type: "Ti.UI.View",
         childTemplates: function() {
-            var __alloyId31 = [];
-            var __alloyId32 = {
+            var __alloyId30 = [];
+            var __alloyId31 = {
                 type: "Ti.UI.ImageView",
                 bindId: "catPhoto",
                 properties: {
@@ -52,12 +52,12 @@ function Controller() {
                     bindId: "catPhoto"
                 }
             };
-            __alloyId31.push(__alloyId32);
-            var __alloyId34 = {
+            __alloyId30.push(__alloyId31);
+            var __alloyId33 = {
                 type: "Ti.UI.View",
                 childTemplates: function() {
-                    var __alloyId35 = [];
-                    var __alloyId36 = {
+                    var __alloyId34 = [];
+                    var __alloyId35 = {
                         type: "Ti.UI.Label",
                         bindId: "catName",
                         properties: {
@@ -67,8 +67,8 @@ function Controller() {
                             bindId: "catName"
                         }
                     };
-                    __alloyId35.push(__alloyId36);
-                    var __alloyId37 = {
+                    __alloyId34.push(__alloyId35);
+                    var __alloyId36 = {
                         type: "Ti.UI.Label",
                         bindId: "catFur",
                         properties: {
@@ -78,106 +78,40 @@ function Controller() {
                             bindId: "catFur"
                         }
                     };
-                    __alloyId35.push(__alloyId37);
-                    return __alloyId35;
+                    __alloyId34.push(__alloyId36);
+                    return __alloyId34;
                 }(),
                 properties: {
                     layout: "vertical"
                 }
             };
-            __alloyId31.push(__alloyId34);
-            return __alloyId31;
+            __alloyId30.push(__alloyId33);
+            return __alloyId30;
         }(),
         properties: {
             layout: "horizontal"
         }
     };
-    __alloyId28.push(__alloyId30);
-    var __alloyId27 = {
+    __alloyId27.push(__alloyId29);
+    var __alloyId26 = {
         properties: {
             name: "elementTemplate"
         },
-        childTemplates: __alloyId28
+        childTemplates: __alloyId27
     };
-    __alloyId25["elementTemplate"] = __alloyId27;
-    var __alloyId40 = [];
-    $.__views.__alloyId41 = {
-        properties: {
-            height: "100",
-            id: "__alloyId41"
-        },
-        catName: {
-            text: "Titoo"
-        },
-        catFur: {
-            text: "noir"
-        },
-        catPhoto: {
-            image: __p.file("http://placekitten.com/g/100/100")
-        }
-    };
-    __alloyId40.push($.__views.__alloyId41);
-    $.__views.__alloyId42 = {
-        properties: {
-            height: "100",
-            id: "__alloyId42"
-        },
-        catName: {
-            text: "Gnocchi"
-        },
-        catFur: {
-            text: "roux"
-        },
-        catPhoto: {
-            image: __p.file("http://placekitten.com/g/100/100")
-        }
-    };
-    __alloyId40.push($.__views.__alloyId42);
-    $.__views.__alloyId43 = {
-        properties: {
-            height: "100",
-            id: "__alloyId43"
-        },
-        catName: {
-            text: "Siia"
-        },
-        catFur: {
-            text: "gris"
-        },
-        catPhoto: {
-            image: __p.file("http://placekitten.com/g/100/100")
-        }
-    };
-    __alloyId40.push($.__views.__alloyId43);
-    $.__views.__alloyId44 = {
-        properties: {
-            height: "100",
-            id: "__alloyId44"
-        },
-        catName: {
-            text: "Copine"
-        },
-        catFur: {
-            text: "tabby"
-        },
-        catPhoto: {
-            image: __p.file("http://placekitten.com/g/100/100")
-        }
-    };
-    __alloyId40.push($.__views.__alloyId44);
-    $.__views.__alloyId38 = Ti.UI.createListSection({
-        id: "__alloyId38"
+    __alloyId24["elementTemplate"] = __alloyId26;
+    $.__views.catListsection = Ti.UI.createListSection({
+        id: "catListsection"
     });
-    $.__views.__alloyId38.items = __alloyId40;
-    var __alloyId45 = [];
-    __alloyId45.push($.__views.__alloyId38);
-    $.__views.__alloyId24 = Ti.UI.createListView({
-        sections: __alloyId45,
-        templates: __alloyId25,
-        defaultItemTemplate: "elementTemplate",
-        id: "__alloyId24"
+    var __alloyId38 = [];
+    __alloyId38.push($.__views.catListsection);
+    $.__views.catList = Ti.UI.createListView({
+        sections: __alloyId38,
+        templates: __alloyId24,
+        id: "catList",
+        defaultItemTemplate: "elementTemplate"
     });
-    $.__views.indexWin.add($.__views.__alloyId24);
+    $.__views.indexWin.add($.__views.catList);
     $.__views.index = __ui.createNavigationWindow({
         window: $.__views.indexWin,
         id: "index"
@@ -185,16 +119,43 @@ function Controller() {
     $.__views.index && $.addTopLevelView($.__views.index);
     exports.destroy = function() {};
     _.extend($, $.__views);
-    $.index.open();
     $.addButton.addEventListener("click", function() {
         var win = Alloy.createController("add").getView();
         $.indexWin.openWindow(win);
     });
     var db = Ti.Database.open("catDB");
-    db.execute("CREATE TABLE IF NOT EXISTS cats(id INTEGER PRIMARY KEY, name TEXT, fur TEXT);");
+    db.execute("CREATE TABLE IF NOT EXISTS cats(id INTEGER PRIMARY KEY, name TEXT, fur TEXT, photo TEXT);");
     db.file.setRemoteBackup(false);
-    db.execute("INSERT INTO city (name,continent,temp_f,temp_c,condition_id) VALUES (?,?,?,?,?)", importName, importContinent, importTempF, importTempC, dbConditionId);
+    var cats = db.execute("SELECT cats.name, cats.fur, cats.photo FROM cats");
+    var catItems = [];
+    while (cats.isValidRow()) {
+        var name = cats.fieldByName("name");
+        var fur = cats.fieldByName("fur");
+        var photo = cats.fieldByName("photo");
+        __log.info(name + " " + fur + " " + photo);
+        catItems.push({
+            catName: {
+                text: name
+            },
+            catFur: {
+                text: fur
+            },
+            catPhoto: {
+                image: __p.file(photo),
+                height: 100
+            },
+            properties: {
+                accessoryType: Ti.UI.LIST_ACCESSORY_TYPE_NONE,
+                color: "black"
+            }
+        });
+        cats.next();
+    }
+    __log.info(catItems);
+    $.catListsection.setHeight(100);
+    $.catListsection.setItems(catItems);
     db.close();
+    $.index.open();
     _.extend($, exports);
 }
 

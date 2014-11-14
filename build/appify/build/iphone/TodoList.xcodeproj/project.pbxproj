@@ -30,15 +30,15 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		2412F467115C296300454E5B /* TiMediaVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2412F465115C296300454E5B /* TiMediaVideoPlayer.m */; };
 		242E8E3111BA39FD0046A0D0 /* libTiCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 242E8E3011BA39FD0046A0D0 /* libTiCore.a */; };
-		1B088CCA20D74D7395C5B828 /* libti.compression.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A45BA8FF1843C6A319240A /* libti.compression.a */; };
-		882D16EE30DB428197C0DD7C /* libyy.logcatcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE21C232C044D8DA1649915 /* libyy.logcatcher.a */; };
-		AAA0AF74995D442CB2B05B3F /* libnet.iamyellow.tiws.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD1C6C8AEC84D16B8BFF625 /* libnet.iamyellow.tiws.a */; };
-		515936F2A0104DDBA3C1C76D /* libyy.tidynamicfont.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFBCBE8D1C0E4D9CBC5D7DA4 /* libyy.tidynamicfont.a */; };
+		3684BBA8A88D448E9891F4FE /* libti.compression.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9440910826A43A4BEBE4F35 /* libti.compression.a */; };
+		911A2020475E4140BE86C0A4 /* libyy.logcatcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 433C59D7B71A493586442B2A /* libyy.logcatcher.a */; };
+		8D0D9AC6E45943E687CA0367 /* libnet.iamyellow.tiws.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A55EECC30A53483A820BC50A /* libnet.iamyellow.tiws.a */; };
+		3B38489C0FD34753B4480DE1 /* libyy.tidynamicfont.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AEB0A0CF8F645EEA69E386A /* libyy.tidynamicfont.a */; };
 		242E8E3211BA39FE0046A0D0 /* libTiCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 242E8E3011BA39FD0046A0D0 /* libTiCore.a */; };
-		AAAEF278911243208022067F /* libti.compression.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A45BA8FF1843C6A319240A /* libti.compression.a */; };
-		466D9D11DB734F53916EF92E /* libyy.logcatcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE21C232C044D8DA1649915 /* libyy.logcatcher.a */; };
-		24407CDFA1BC4726A5009D5C /* libnet.iamyellow.tiws.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD1C6C8AEC84D16B8BFF625 /* libnet.iamyellow.tiws.a */; };
-		228271858C5D4FCEAD5F7083 /* libyy.tidynamicfont.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFBCBE8D1C0E4D9CBC5D7DA4 /* libyy.tidynamicfont.a */; };
+		48341A3874BD494B9449E23C /* libti.compression.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9440910826A43A4BEBE4F35 /* libti.compression.a */; };
+		840850AC89B44861BBA41E1B /* libyy.logcatcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 433C59D7B71A493586442B2A /* libyy.logcatcher.a */; };
+		E3342A813A774AEDAD87CD49 /* libnet.iamyellow.tiws.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A55EECC30A53483A820BC50A /* libnet.iamyellow.tiws.a */; };
+		1190A8E73EA440C28D092F99 /* libyy.tidynamicfont.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AEB0A0CF8F645EEA69E386A /* libyy.tidynamicfont.a */; };
 		242E967711BAD2F20046A0D0 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 242E967411BAD2F20046A0D0 /* AsyncSocket.m */; };
 		242E967811BAD2F20046A0D0 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 242E967611BAD2F20046A0D0 /* AsyncUdpSocket.m */; };
 		242E967911BAD2F20046A0D0 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 242E967411BAD2F20046A0D0 /* AsyncSocket.m */; };
@@ -905,10 +905,10 @@
 		DABB37B412E8CB280026A6EA /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EB0A57111E1BAE001DC2D1 /* libxml2.dylib */; };
 		DABB37B512E8CB280026A6EA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24597034118FF66300519F79 /* StoreKit.framework */; };
 		DABB37B612E8CB280026A6EA /* libTiCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 242E8E3011BA39FD0046A0D0 /* libTiCore.a */; };
-		8CC19DC8D953440C9930E404 /* libti.compression.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A45BA8FF1843C6A319240A /* libti.compression.a */; };
-		10B3BC7AC620494BA3B2D951 /* libyy.logcatcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE21C232C044D8DA1649915 /* libyy.logcatcher.a */; };
-		7C2ECEBBC1E44F15A3534445 /* libnet.iamyellow.tiws.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD1C6C8AEC84D16B8BFF625 /* libnet.iamyellow.tiws.a */; };
-		3D90B39C578144128B609EA2 /* libyy.tidynamicfont.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFBCBE8D1C0E4D9CBC5D7DA4 /* libyy.tidynamicfont.a */; };
+		AC107C4C91C34795942B21F0 /* libti.compression.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9440910826A43A4BEBE4F35 /* libti.compression.a */; };
+		968C83FC8E68433D9838333F /* libyy.logcatcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 433C59D7B71A493586442B2A /* libyy.logcatcher.a */; };
+		60FE8ACFC8D841B6AAFA8825 /* libnet.iamyellow.tiws.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A55EECC30A53483A820BC50A /* libnet.iamyellow.tiws.a */; };
+		48D34951FDCD463289408AF4 /* libyy.tidynamicfont.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AEB0A0CF8F645EEA69E386A /* libyy.tidynamicfont.a */; };
 		DABB37B712E8CB280026A6EA /* libtiverify.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D5C75811E6364F00F097E2 /* libtiverify.a */; };
 		DABDEB08128B5A8F00C85FEA /* AudioStreamerCUR.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9FF582128A1F3600457759 /* AudioStreamerCUR.m */; };
 		DABF3ECF134D210400836137 /* TiBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = DABF3ECE134D210400836137 /* TiBuffer.m */; };
@@ -958,10 +958,10 @@
 		241EAA21118AB3BB0081A5BE /* defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = defines.h; path = Classes/defines.h; sourceTree = SOURCE_ROOT; };
 		241EAEC5118E2BA90081A5BE /* project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = project.xcconfig; sourceTree = "<group>"; };
 		242E8E3011BA39FD0046A0D0 /* libTiCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTiCore.a; path = lib/libTiCore.a; sourceTree = SOURCE_ROOT; };
-		59A45BA8FF1843C6A319240A /* libti.compression.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libti.compression.a; path = "/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/ti.compression/1.0.2/libti.compression.a"; sourceTree = "<absolute>"; };
-		FCE21C232C044D8DA1649915 /* libyy.logcatcher.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libyy.logcatcher.a; path = "/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/yy.logcatcher/0.1/libyy.logcatcher.a"; sourceTree = "<absolute>"; };
-		6FD1C6C8AEC84D16B8BFF625 /* libnet.iamyellow.tiws.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnet.iamyellow.tiws.a; path = "/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/net.iamyellow.tiws/0.3/libnet.iamyellow.tiws.a"; sourceTree = "<absolute>"; };
-		DFBCBE8D1C0E4D9CBC5D7DA4 /* libyy.tidynamicfont.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libyy.tidynamicfont.a; path = "/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/yy.tidynamicfont/0.1/libyy.tidynamicfont.a"; sourceTree = "<absolute>"; };
+		E9440910826A43A4BEBE4F35 /* libti.compression.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libti.compression.a; path = "/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/ti.compression/1.0.2/libti.compression.a"; sourceTree = "<absolute>"; };
+		433C59D7B71A493586442B2A /* libyy.logcatcher.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libyy.logcatcher.a; path = "/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/yy.logcatcher/0.1/libyy.logcatcher.a"; sourceTree = "<absolute>"; };
+		A55EECC30A53483A820BC50A /* libnet.iamyellow.tiws.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnet.iamyellow.tiws.a; path = "/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/net.iamyellow.tiws/0.3/libnet.iamyellow.tiws.a"; sourceTree = "<absolute>"; };
+		6AEB0A0CF8F645EEA69E386A /* libyy.tidynamicfont.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libyy.tidynamicfont.a; path = "/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/yy.tidynamicfont/0.1/libyy.tidynamicfont.a"; sourceTree = "<absolute>"; };
 		242E95C811BAC8B40046A0D0 /* TiDebugger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiDebugger.h; path = Classes/TiDebugger.h; sourceTree = SOURCE_ROOT; };
 		242E967311BAD2F20046A0D0 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncSocket.h; path = Classes/AsyncSocket.h; sourceTree = SOURCE_ROOT; };
 		242E967411BAD2F20046A0D0 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncSocket.m; path = Classes/AsyncSocket.m; sourceTree = SOURCE_ROOT; };
@@ -1594,10 +1594,10 @@
 				24EB0A58111E1BAE001DC2D1 /* libxml2.dylib in Frameworks */,
 				24597035118FF66300519F79 /* StoreKit.framework in Frameworks */,
 				242E8E3111BA39FD0046A0D0 /* libTiCore.a in Frameworks */,
-				1B088CCA20D74D7395C5B828 /* libti.compression.a in Frameworks */,
-				882D16EE30DB428197C0DD7C /* libyy.logcatcher.a in Frameworks */,
-				AAA0AF74995D442CB2B05B3F /* libnet.iamyellow.tiws.a in Frameworks */,
-				515936F2A0104DDBA3C1C76D /* libyy.tidynamicfont.a in Frameworks */,
+				3684BBA8A88D448E9891F4FE /* libti.compression.a in Frameworks */,
+				911A2020475E4140BE86C0A4 /* libyy.logcatcher.a in Frameworks */,
+				8D0D9AC6E45943E687CA0367 /* libnet.iamyellow.tiws.a in Frameworks */,
+				3B38489C0FD34753B4480DE1 /* libyy.tidynamicfont.a in Frameworks */,
 				B606EF60190B42FB00663EFC /* libAPSHTTPClient.a in Frameworks */,
 				242EA11611BD956F0046A0D0 /* ExternalAccessory.framework in Frameworks */,
 				24D5C75911E6364F00F097E2 /* libtiverify.a in Frameworks */,
@@ -1637,10 +1637,10 @@
 				24D8E4AB119B9D8A00F8CAA6 /* libxml2.dylib in Frameworks */,
 				24D8E4AC119B9D8A00F8CAA6 /* StoreKit.framework in Frameworks */,
 				242E8E3211BA39FE0046A0D0 /* libTiCore.a in Frameworks */,
-				AAAEF278911243208022067F /* libti.compression.a in Frameworks */,
-				466D9D11DB734F53916EF92E /* libyy.logcatcher.a in Frameworks */,
-				24407CDFA1BC4726A5009D5C /* libnet.iamyellow.tiws.a in Frameworks */,
-				228271858C5D4FCEAD5F7083 /* libyy.tidynamicfont.a in Frameworks */,
+				48341A3874BD494B9449E23C /* libti.compression.a in Frameworks */,
+				840850AC89B44861BBA41E1B /* libyy.logcatcher.a in Frameworks */,
+				E3342A813A774AEDAD87CD49 /* libnet.iamyellow.tiws.a in Frameworks */,
+				1190A8E73EA440C28D092F99 /* libyy.tidynamicfont.a in Frameworks */,
 				24D5C75A11E6364F00F097E2 /* libtiverify.a in Frameworks */,
 				DAA4B2AF134E3DBD00AB6011 /* libti_ios_debugger.a in Frameworks */,
 				DADE76D613D65C6F0079FC75 /* libicucore.dylib in Frameworks */,
@@ -1680,10 +1680,10 @@
 				DABB37B412E8CB280026A6EA /* libxml2.dylib in Frameworks */,
 				DABB37B512E8CB280026A6EA /* StoreKit.framework in Frameworks */,
 				DABB37B612E8CB280026A6EA /* libTiCore.a in Frameworks */,
-				8CC19DC8D953440C9930E404 /* libti.compression.a in Frameworks */,
-				10B3BC7AC620494BA3B2D951 /* libyy.logcatcher.a in Frameworks */,
-				7C2ECEBBC1E44F15A3534445 /* libnet.iamyellow.tiws.a in Frameworks */,
-				3D90B39C578144128B609EA2 /* libyy.tidynamicfont.a in Frameworks */,
+				AC107C4C91C34795942B21F0 /* libti.compression.a in Frameworks */,
+				968C83FC8E68433D9838333F /* libyy.logcatcher.a in Frameworks */,
+				60FE8ACFC8D841B6AAFA8825 /* libnet.iamyellow.tiws.a in Frameworks */,
+				48D34951FDCD463289408AF4 /* libyy.tidynamicfont.a in Frameworks */,
 				DABB37B712E8CB280026A6EA /* libtiverify.a in Frameworks */,
 				DAA4B2B0134E3DBD00AB6011 /* libti_ios_debugger.a in Frameworks */,
 				DADE76D713D65C7D0079FC75 /* libicucore.dylib in Frameworks */,
@@ -2776,10 +2776,10 @@
 				DAA4B2AD134E3DBD00AB6011 /* libti_ios_debugger.a */,
 				24D5C75811E6364F00F097E2 /* libtiverify.a */,
 				242E8E3011BA39FD0046A0D0 /* libTiCore.a */,
-				59A45BA8FF1843C6A319240A /* libti.compression.a */,
-				FCE21C232C044D8DA1649915 /* libyy.logcatcher.a */,
-				6FD1C6C8AEC84D16B8BFF625 /* libnet.iamyellow.tiws.a */,
-				DFBCBE8D1C0E4D9CBC5D7DA4 /* libyy.tidynamicfont.a */,
+				E9440910826A43A4BEBE4F35 /* libti.compression.a */,
+				433C59D7B71A493586442B2A /* libyy.logcatcher.a */,
+				A55EECC30A53483A820BC50A /* libnet.iamyellow.tiws.a */,
+				6AEB0A0CF8F645EEA69E386A /* libyy.tidynamicfont.a */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
@@ -4106,10 +4106,10 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/lib\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/ti.compression/1.0.2\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/yy.logcatcher/0.1\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/net.iamyellow.tiws/0.3\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/yy.tidynamicfont/0.1\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/ti.compression/1.0.2\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/yy.logcatcher/0.1\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/net.iamyellow.tiws/0.3\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/yy.tidynamicfont/0.1\"",
 					"\"$(SRCROOT)/Classes/APSAnalytics\"",
 					"\"$(SRCROOT)/Classes/APSHTTPClient\"",
 				);
@@ -4151,10 +4151,10 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/lib\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/ti.compression/1.0.2\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/yy.logcatcher/0.1\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/net.iamyellow.tiws/0.3\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/yy.tidynamicfont/0.1\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/ti.compression/1.0.2\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/yy.logcatcher/0.1\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/net.iamyellow.tiws/0.3\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/yy.tidynamicfont/0.1\"",
 					"\"$(SRCROOT)/Classes/APSAnalytics\"",
 					"\"$(SRCROOT)/Classes/APSHTTPClient\"",
 				);
@@ -4188,10 +4188,10 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/lib\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/ti.compression/1.0.2\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/yy.logcatcher/0.1\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/net.iamyellow.tiws/0.3\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/yy.tidynamicfont/0.1\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/ti.compression/1.0.2\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/yy.logcatcher/0.1\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/net.iamyellow.tiws/0.3\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/yy.tidynamicfont/0.1\"",
 					"\"$(SRCROOT)/Classes/APSAnalytics\"",
 					"\"$(SRCROOT)/Classes/APSHTTPClient\"",
 				);
@@ -4227,10 +4227,10 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/lib\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/ti.compression/1.0.2\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/yy.logcatcher/0.1\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/net.iamyellow.tiws/0.3\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/yy.tidynamicfont/0.1\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/ti.compression/1.0.2\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/yy.logcatcher/0.1\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/net.iamyellow.tiws/0.3\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/yy.tidynamicfont/0.1\"",
 					"\"$(SRCROOT)/Classes/APSAnalytics\"",
 					"\"$(SRCROOT)/Classes/APSHTTPClient\"",
 				);
@@ -4391,10 +4391,10 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/lib\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/ti.compression/1.0.2\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/yy.logcatcher/0.1\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/net.iamyellow.tiws/0.3\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/yy.tidynamicfont/0.1\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/ti.compression/1.0.2\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/yy.logcatcher/0.1\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/net.iamyellow.tiws/0.3\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/yy.tidynamicfont/0.1\"",
 					"\"$(SRCROOT)/Classes/APSAnalytics\"",
 					"\"$(SRCROOT)/Classes/APSHTTPClient\"",
 				);
@@ -4437,10 +4437,10 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/lib\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/ti.compression/1.0.2\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/yy.logcatcher/0.1\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/net.iamyellow.tiws/0.3\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/yy.tidynamicfont/0.1\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/ti.compression/1.0.2\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/yy.logcatcher/0.1\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/net.iamyellow.tiws/0.3\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/yy.tidynamicfont/0.1\"",
 					"\"$(SRCROOT)/Classes/APSAnalytics\"",
 					"\"$(SRCROOT)/Classes/APSHTTPClient\"",
 				);
@@ -4478,10 +4478,10 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/lib\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/ti.compression/1.0.2\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/yy.logcatcher/0.1\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/net.iamyellow.tiws/0.3\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/yy.tidynamicfont/0.1\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/ti.compression/1.0.2\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/yy.logcatcher/0.1\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/net.iamyellow.tiws/0.3\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/yy.tidynamicfont/0.1\"",
 					"\"$(SRCROOT)/Classes/APSAnalytics\"",
 					"\"$(SRCROOT)/Classes/APSHTTPClient\"",
 				);
@@ -4525,10 +4525,10 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/lib\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/ti.compression/1.0.2\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/yy.logcatcher/0.1\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/net.iamyellow.tiws/0.3\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/yy.tidynamicfont/0.1\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/ti.compression/1.0.2\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/yy.logcatcher/0.1\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/net.iamyellow.tiws/0.3\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/yy.tidynamicfont/0.1\"",
 					"\"$(SRCROOT)/Classes/APSAnalytics\"",
 					"\"$(SRCROOT)/Classes/APSHTTPClient\"",
 				);
@@ -4570,10 +4570,10 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/lib\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/ti.compression/1.0.2\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/yy.logcatcher/0.1\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/net.iamyellow.tiws/0.3\"",
-                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/modules/iphone/yy.tidynamicfont/0.1\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/ti.compression/1.0.2\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/yy.logcatcher/0.1\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/net.iamyellow.tiws/0.3\"",
+                                        "\"/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/modules/iphone/yy.tidynamicfont/0.1\"",
 					"\"$(SRCROOT)/Classes/APSAnalytics\"",
 					"\"$(SRCROOT)/Classes/APSHTTPClient\"",
 				);

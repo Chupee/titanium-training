@@ -1,9 +1,10 @@
 <Alloy>
 <NavigationWindow>
+	
 		<Window id="indexWin" class="container" title="Chats">
 			<LeftNavButton id="backButton" title="Retour"></LeftNavButton>
 			<RightNavButton id="addButton" title="+"></RightNavButton>
-			<ListView defaultItemTemplate="elementTemplate">
+			<ListView id="catList" defaultItemTemplate="elementTemplate">
 				<Templates>
 					<ItemTemplate name="elementTemplate">
 						<View layout="horizontal">
@@ -15,13 +16,10 @@
 			            </View>
 			        </ItemTemplate>
 				</Templates>
-				<ListSection> 
-					<ListItem height="100" catName:text="Titoo" catFur:text="noir" catPhoto:image="http://placekitten.com/g/100/100" />
-					<ListItem height="100" catName:text="Gnocchi" catFur:text="roux" catPhoto:image="http://placekitten.com/g/100/100" />
-					<ListItem height="100" catName:text="Siia" catFur:text="gris" catPhoto:image="http://placekitten.com/g/100/100" />
-					<ListItem height="100" catName:text="Copine" catFur:text="tabby" catPhoto:image="http://placekitten.com/g/100/100" />
+				<ListSection id="catListsection"> 
 				</ListSection>
 			</ListView>
 		</Window>
+		
 </NavigationWindow>
 </Alloy>

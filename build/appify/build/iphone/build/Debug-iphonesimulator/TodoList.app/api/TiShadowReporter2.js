@@ -1,1 +1,1 @@
-/Users/juliepronzac/Documents/Titanium_Studio_Workspace/CatList/build/appify/Resources/api/TiShadowReporter2.js
+/Users/juliepronzac/Documents/Titanium_Studio_Workspace/titanium-training/build/appify/Resources/api/TiShadowReporter2.js

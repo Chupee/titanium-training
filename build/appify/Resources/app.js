@@ -16,9 +16,9 @@ var Compression = require('ti.compression');
 require("/lib/ti-mocha");
 
 // If new install clear cache
-if (Ti.App.Properties.getString("tishadow::container_version",0) !== "1415802108981") {
+if (Ti.App.Properties.getString("tishadow::container_version",0) !== "1415913280041") {
   TiShadow.clearCache(true);
-  Ti.App.Properties.setString("tishadow::container_version","1415802108981"); 
+  Ti.App.Properties.setString("tishadow::container_version","1415913280041"); 
 }
 
 
@@ -33,7 +33,7 @@ if (!target.exists()) {
 //Call Home
 TiShadow.connect({
   proto: "http",
-  host : "192.168.56.1",
+  host : "192.168.0.13",
   port : "3000",
   room : "default",
   name : Ti.Platform.osname + ", " + Ti.Platform.version + ", " + Ti.Platform.address
